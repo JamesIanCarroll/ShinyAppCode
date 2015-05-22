@@ -1,0 +1,12 @@
+---
+title: "How to use this Shiny App"
+author: "James Carroll"
+---
+
+This is a simple Shiny App designed to allow the user to explore the ``` mtcars ``` dataset that comes pre-installed with R. 
+
+On the **DataSet** tab within this sidebar you will be able to choose different factors of the engine such as Number of Cylinders, Engine Piston Configuration, and the Number of Gears, to be graphed against other, selectable, performance indicators such as Miles Per Gallon or Weight. 
+
+The Main Panel is divided into two tabs; **Data Plot** and **Data Table**. Following your choice of factor and performance variable the **Data Plot Tab** will provide a Box and Whisker Diagram, for initial visualisation, and the **Data Table Tab** will provide a completed table of values, for deeper investigation.
+
+The Plot and Table are reactive so you may change between the different factors and performance variables as you wish. I hope you enjoy my first attempt at a Shiny App!
